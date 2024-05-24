@@ -1,5 +1,18 @@
 # Airbnb Recommendation System
 
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Data Processing](#data-processing)
+3. [Models Used](#models-used)
+    - [Popularity-Based Model](#popularity-based-model)
+    - [Collaborative Filtering](#collaborative-filtering)
+    - [Content-Based Model](#content-based-model)
+    - [Hybrid Model](#hybrid-model)
+4. [Interactive Dashboard](#interactive-dashboard)
+5. [Model Performance and Similarity Scores](#model-performance-and-similarity-scores)
+6. [Conclusion](#conclusion)
+7. [Limitations](#limitations)
+   
 ## Project Overview
 Our Airbnb Recommendation System aims to improve the precision of property matches on Airbnb, setting a benchmark for future enhancements. By integrating state-of-the-art machine learning models and sophisticated data handling techniques, our system ensures scalability and adaptability. As we continue to refine our algorithms and expand our dataset, we anticipate further advances in user experience and system performance, promising a new era of personalized travel planning.
 
@@ -27,7 +40,7 @@ https://github.com/Jessicalllll/AirbnbRecommendation/assets/77706422/966c8f80-59
 | Model                           | Largest Similarity | Average Similarity |
 |---------------------------------|--------------------|--------------------|
 | Popularity Model                | 45.23%             | 41.37%             |
-| Hybrid Model                    | 75.48%             | 82.05%             |
+| Hybrid Model (CF & CB)          | 75.48%             | 82.05%             |
 | Collaborative Filtering Model   | 67.34%             | 56.63%             |
 
 
