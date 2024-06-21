@@ -9,7 +9,7 @@
     - [Content-Based Model](#content-based-model)
     - [Hybrid Model](#hybrid-model)
 4. [Interactive Dashboard](#interactive-dashboard)
-5. Model Performance Comparison(#model-performance-comparison)
+5. [Model Performance Comparison](#model-performance-comparison)
 6. [Conclusion](#conclusion)
 7. [Limitations](#limitations)
    
