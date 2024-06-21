@@ -9,8 +9,9 @@
     - [Content-Based Model](#content-based-model)
     - [Hybrid Model](#hybrid-model)
 4. [Interactive Dashboard](#interactive-dashboard)
-5. [Conclusion](#conclusion)
-6. [Limitations](#limitations)
+5. Model Performance Comparison(#model-performance-comparison)
+6. [Conclusion](#conclusion)
+7. [Limitations](#limitations)
    
 ## Project Overview
 Our Airbnb Recommendation System aims to improve the precision of property matches on Airbnb, setting a benchmark for future enhancements. By integrating state-of-the-art machine learning models and sophisticated data handling techniques, our system ensures scalability and adaptability. As we continue to refine our algorithms and expand our dataset, we anticipate further advances in user experience and system performance, promising a new era of personalized travel planning.
@@ -34,9 +35,20 @@ Combines collaborative filtering and content-based models to provide more accura
 ## Interactive Dashboard
 https://github.com/Jessicalllll/AirbnbRecommendation/assets/77706422/966c8f80-5978-425e-8358-fae786b7d441
 
+
+## Model Performance Comparison
+
+| Model                          | Average Similarity       | Largest Similarity        |
+|--------------------------------|--------------------------|---------------------------|
+| Content-based Filtering        | 0.4902072320026217       | 0.6186119929841327        |
+| Collaborative Filtering        | 0.5282878535200413       | 0.6734404113689729        |
+| Hybrid (CB+CL)                 | 0.7488302569625273       | 0.8451315765691716        |
+
+
+
 ## Conclusion
 
-Our Airbnb recommendation system showcases three distinct models, each with their strengths in matching user preferences with available properties. The Hybrid Model demonstrates the highest average similarity score at 82.05%, indicating its superior performance in providing personalized recommendations. The Collaborative Filtering Model follows, with the Popularity Model having the lowest average similarity score. This evaluation highlights the effectiveness of combining multiple approaches to enhance the accuracy and relevance of recommendations.
+Our Airbnb recommendation system showcases three distinct models, each with their strengths in matching user preferences with available properties. The Hybrid Model demonstrates the highest average similarity score at 74.88%, indicating its superior performance in providing personalized recommendations. The Collaborative Filtering Model follows, with the Popularity Model having the lowest average similarity score. This evaluation highlights the effectiveness of combining multiple approaches to enhance the accuracy and relevance of recommendations.
 
 ## Limitations
 
